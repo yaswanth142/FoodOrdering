@@ -1,0 +1,515 @@
+
+  *{
+    margin:0%;
+    padding: 0%;
+    /* background-color: black; */
+}
+
+/* navbar section code starts */
+
+nav{
+background-color: black;
+width: 100%;
+height: 70px;
+line-height: 70px;
+display: flex;
+justify-content: space-between;
+padding-bottom: 10px;
+position:fixed;
+z-index: 999;
+}
+ul{
+    margin: 0%;
+    margin-right: 10%;
+}
+ ul li{
+    text-decoration: none;
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+    text-align: center;  
+}
+ul li a:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: orange;  
+    font-size: 18px;
+    transition: 1.9s all ease;
+}
+.number{
+    margin-right: 10px;
+}
+.logo a{
+    font-size: 30px;
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+}
+
+
+
+/* navbar section code ends */
+
+/* nav section middle code starts */
+ 
+.order{
+size:5;
+ background-color: #e66d1c;
+ border-radius: 3;
+ width:150px;
+ height:50px;
+ border-radius: 16px;
+ margin-left:30px;
+ cursor: pointer;
+ border:0 4px 8px 0 rgba(182, 91, 16, 0.4),0 6px 20px 0 rgba(192, 108, 12, 0.986); 
+} 
+
+/* nav section middle code ends */
+
+/* about us code section starts */
+  .aboutus p{
+    color:orangered;
+}
+.aboutus{
+    text-align:center;
+    background-color: black;
+    /* background: linear-gradient( to right,rgb(26, 143, 71),#f00,#0f0,#0ff,#ff0,#0ff); */
+    width: 100%;
+    height: 730px;
+}
+
+.aboutus h1{
+  color:orangered;
+}
+/* about us code section ends */
+
+
+/* chief section code starts */
+
+.food_items{
+   width:100%;
+  height:450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+ 
+}
+.sub_items{
+  /* border: 2px solid red; */
+   width:390px;
+  height:350px; 
+  float:left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  box-shadow: 0 4px 8px 0 rgba(214, 212, 212, 0.4),0 6px 20px 0 rgba(223, 216, 216, 0.35);
+  transition: transform 1s;
+}
+.sub_items:hover{
+  transform: scale(1.05);
+}
+.sub_items img{
+  width:100%;
+  height:60%;
+}
+.checked{
+  color: orange;
+}
+.starr{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  display:flex;
+  height:15px;
+}
+.title {
+  text-align: center;
+  font-size: 18px;
+}
+/* ends of aboutsus chef ends */
+
+
+/* footer code starts */
+.f{
+  /* border:2px solid blue; */
+  background-color: black;
+  width: 100%;
+  height:200px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+.fb{
+  border: 2px solid black;
+  width:30%;
+  height:180px;
+  text-align: center;
+  color:white;   
+}
+#ff{
+font-size: 30px;
+}
+/* footer code ends */
+
+ 
+
+
+/* special code starts */
+
+#special{
+  background: black;
+  min-height: 100vh;
+}
+   
+
+    .card-container{
+      width: 95%;
+      margin:3rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .cards{
+      width:25rem;
+      height:30rem;
+      padding:1rem;
+      margin:1rem;
+      align-items: center;
+      background:white;
+      box-shadow: 0 4px 8px 0 rgba(182, 91, 16, 0.4),0 6px 20px 0 rgba(192, 108, 12, 0.986);
+    }
+    .cards:hover{
+     transform: scale(0.9);
+    }
+    .img{
+          height:65%;
+          width: 100%;
+          object-fit: cover;
+    }
+    h1{
+      justify-content: center;
+      text-align: center;
+      color: rgb(114, 10, 10);
+      margin:2px;
+    }
+    span{
+      justify-content: center;
+      text-align: center;
+      color:white;
+    }
+    p{
+      text-align: center;
+      color: black;
+      font-size: 20px;
+    }
+    button{
+   margin-left: 35%;
+   height: 1.5rem;
+   width: 6.5rem;
+   border-radius: 0.5rem ;
+   background-color: black;
+   color: white;
+    }
+   button:hover{
+      background-color:orange;
+      
+    }
+
+    /* special code section ends */
+
+
+    
+
+    /* dishes section starts */
+      #dish{
+       background-color: rgba(236, 92, 92, 0.692);
+       padding-bottom: 4px;
+      }
+    .box-container{
+      width: 95%;
+      margin:2rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .box{
+      width:20rem;
+      height:20rem;
+      padding:1rem;
+      margin:1.5rem;
+      align-items: center;
+      cursor: pointer;
+      /* background:white; */
+      box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.4),0 6px 20px 0 rgba(15, 13, 12, 0.986); 
+      overflow: hidden;
+      position: relative;
+      /* box-shadow: 0 0 .5rem #333; */
+    }
+    .info{
+      position: absolute;
+      top:0;left:0;
+      height: 100%;
+      width: 100%;
+      background: rgba(51,51,51,.6 );
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color:white;
+      transform: scale(0);
+    }
+    h3{
+      font-size: 2rem;
+      column-count: inherit;
+      color:rgba(255, 0, 0, 0.938);
+      text-align: center;
+    }
+    .pd{
+      font-size: 1.3rem;
+      border-bottom: .2rem solid red;
+      border-top: .2rem solid red;
+      margin:1rem 2rem;
+      color: white;
+    }
+    .imgd{
+           height: 100%;
+           width: 100%;
+           object-fit: cover;
+    }
+    .db{
+    width:4rem;
+    height:2rem;
+    align-items: center;
+    margin-left:10%;
+    border:0 4px 8px 0 rgba(182, 91, 16, 0.4),0 6px 20px 0 rgba(192, 108, 12, 0.884); 
+   
+    }
+    .box:hover .info{
+      transform: scale(1);
+    }
+
+
+
+/* animation section starts */
+
+.load{
+       animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 100vh;
+    animation: slide 20s infinite ;
+}
+.contenta{
+  color:#fff;
+  width:100%;
+  height:100vh;
+  /* background-color: rgba(0, 0, 0,0.5); */
+}
+.princpal{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  text-align:center;
+}
+.princpal p{
+  font-size: 30px;
+  margin-bottom:80px;
+  color: khaki;
+
+}
+.princpal h1{
+  font-size: 50px;
+  margin-bottom:30px;
+  color: orange;
+}
+@keyframes slide{
+  0%{
+    background-image: url(restaurantimg/pepsy.jpg);
+  }
+  20%{
+    background-image: url(restaurantimg/pepsy.jpg);
+  }
+  20.01%{
+    background-image: url(restaurantimg/burger1.jpg);
+  }
+  40%{
+    background-image: url(restaurantimg/burger1.jpg);
+  }
+  40.01%{
+    background-image: url(restaurantimg/ma1.jpg);
+  }
+  60%{
+    background-image: url(restaurantimg/ma1.jpg);
+  }
+  60.01%{
+    background-image: url(restaurantimg/piza1.jpg);
+  }
+  80%{
+    background-image:  url(restaurantimg/piza1.jpg);
+  }
+  80.01%{
+    background-image: url(restaurantimg/cake1.jpg);
+  }
+  100%{
+    background-image: url(restaurantimg/cake1.jpg);
+  }
+}
+/* animation section ends */
+
+
+
+/* section code of contact us starts */
+
+.contactus{
+  width: 100%;
+  height:130vh;
+  background-image: url(restaurantimg/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.formabout{
+  background:rgb(241, 239, 241);
+  padding-top: 2rem;
+  margin:1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem #333;
+  width:50vw;
+  height:70vh;
+}
+.inputBoxa{
+position:relative;
+text-align: center;
+}
+.inputa ,.textareaa{
+  outline: none;
+  border:0.2rem solid #333;
+  border-radius: .2rem;
+  margin:2rem 0;
+  padding:0 1rem;
+  background:none;
+  height:4rem;
+  width:90%;
+  font-size:2rem;
+}
+.textareaa:focus ~ h4,
+.textareaa:valid ~ h4{
+  font-size: 1.6rem;
+  left:6%;
+  color:rgb(155, 49, 49);
+  top:-.5rem;
+}
+.inputa:focus ~ h4,
+.inputa:valid ~ h4{
+  font-size: 1.6rem;
+  left:6%;
+  color:rgb(177, 45, 45);
+  top:-.5rem;
+}
+.textareaa{
+  padding:1rem;
+  resize:none;
+  height:6rem;
+
+}
+h4{
+  position: absolute;
+  top:3rem;left: 7rem;
+}
+input[type="Submit"]{
+  height:2rem;
+  width:6rem;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+  margin-left:4%;
+  background:orange;
+  color: rgb(0, 0, 0);
+}
+
+.inputasb:hover{
+  color:#333;
+  background:rgb(206, 203, 19);
+}
+.contactus-l{
+  width: 30%;
+  height:580px;
+  /* border: 2px solid blue; */
+  margin-top:-230px;
+  margin-left: 1200px;
+  background-image: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index:1;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  position: sticky;
+  border:0 4px 8px 0 rgba(182, 91, 16, 0.4),0 6px 20px 0 rgba(192, 108, 12, 0.986); 
+   
+}
+
+
+.loada{
+  animation: slide 2s;
+}
+.slidera{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width:100%;
+height: 80vh;
+animation: slidea 20s infinite ;
+}
+@keyframes slidea{
+0%{
+background-image: url(https://images.pexels.com/photos/618613/pexels-photo-618613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+20%{
+background-image: url(https://images.pexels.com/photos/618613/pexels-photo-618613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+
+}
+20.01%{
+background-image: url(https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+40%{
+background-image: url(https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+40.01%{
+background-image: url(https://images.pexels.com/photos/323503/pexels-photo-323503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+60%{
+background-image: url(https://images.pexels.com/photos/323503/pexels-photo-323503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+60.01%{
+background-image: url(https://images.pexels.com/photos/4226256/pexels-photo-4226256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+80%{
+background-image: url(https://images.pexels.com/photos/4226256/pexels-photo-4226256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+80.01%{
+background-image: url(https://images.pexels.com/photos/2102415/pexels-photo-2102415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+100%{
+background-image: url(https://images.pexels.com/photos/2102415/pexels-photo-2102415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  }}
+
+
+
+
+/* section code of contact us starts */
+
+  
+  
+   
+    
+  
